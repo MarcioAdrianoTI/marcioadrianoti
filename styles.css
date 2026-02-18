@@ -80,7 +80,23 @@ footer {
     padding: 20px;
 }
 
+/* ===== DARK MODE ===== */
+
 .dark-mode {
     background-color: #121212;
     color: #f4f4f4;
+}
+
+.dark-mode .card {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(255,255,255,0.05);
+}
+
+.dark-mode h2 {
+    border-bottom: 3px solid #4da6ff;
+}
+
+.dark-mode section {
+    color: #ffffff;
 }
